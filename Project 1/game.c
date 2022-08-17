@@ -143,13 +143,13 @@ void game(char name){
                 printf("---Wrong Input---"); break;
         }
         
-// comparing and printing the game status
- char* wintable[n][m] = {{"1","2","3","4"},{"5","6","7","8"},{"9","10","11","12"},{"13","14","15"," "}};
+        // comparing and printing the game status
+        char* wintable[n][m] = {{"1","2","3","4"},{"5","6","7","8"},{"9","10","11","12"},{"13","14","15"," "}};
         
- if ( compare(array,wintable)==0 && chances==10 )
-        printf("---YOU LOSE---");
- else if ( compare(array,wintable)==1 )
-        printf("---YOU WIN---");
+        if ( compare(array,wintable)==0 && chances==10 )
+             printf("---YOU LOSE---");
+        else if ( compare(array,wintable)==1 )
+             printf("---YOU WIN---");
     }
 }
 
